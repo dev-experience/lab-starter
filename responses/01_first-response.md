@@ -1,20 +1,25 @@
-# Title
+# JavaScript functions
 
-This is the paragraph to would describe the concept. It may link to other resources, or include images. Try to avoid _too_ much information and _too_ many external links. The purpose of these paragraphs is to give the user the information they need to complete the activity, understand what they're doing, and understand why they're doing it.
+https://www.youtube.com/watch?v=N8ap4k_1QEQ
 
-### More detail 
+Every JavaScript function is actually a `Function` object. This can be seen with the code `(function(){}).constructor === Function`, which returns `true`.
 
-If there are concepts that should be described separately, they might belong in a subparagraph section like this one.
+### `function` declaration
 
-## Step X: Description
+The **function** declaration (function statement) defines a function with the specified parameters.
 
-Here, we'll describe generally what the user is about to do.
+You can also define functions using the [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) constructor and a [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function).
 
-### :keyboard: Activity: Specific description
+## Step 1: Decrale a function
 
-1. Step 1 in short sentence
-2. Step 2 in short sentence
-3. Step 3 in short sentence
+Declare a functions that prints a "Hello world!" message to the console
+
+### :keyboard: Activities
+
+1. Open a file
+2. Declare a function with any name
+3. Print "Hello world!" to the conlose
+4. Commit the changes
 
 <hr>
 <h3 align="center">Watch below this comment for my response</h3>
