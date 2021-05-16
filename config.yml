@@ -48,26 +48,26 @@ steps:
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 - title: Naming the function properly
- description: Good naming is important to write readable code
- event: push
- actions: # a list of the actions that will occur when the step is triggered by an event
- - type: # the type of action, full list at https://lab.github.com/docs/actions
+  description: Good naming is important to write readable code
+  event: push
+  actions: # a list of the actions that will occur when the step is triggered by an event
+  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 - title: Retrun a value
- description: Returning a value allow you to implement algorithms
- event: status
- actions: # a list of the actions that will occur when the step is triggered by an event
- - type: # the type of action, full list at https://lab.github.com/docs/actions
+  description: Returning a value allow you to implement algorithms
+  event: status
+  actions: # a list of the actions that will occur when the step is triggered by an event
+  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 - title: Accepting parameters
- description: Functions can use input values to process them
- event: status
- actions: # a list of the actions that will occur when the step is triggered by an event
- - type: # the type of action, full list at https://lab.github.com/docs/actions
+  description: Functions can use input values to process them
+  event: status
+  actions: # a list of the actions that will occur when the step is triggered by an event
+  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 - title: 3 functions
- description: Implementing an algorithm
- event: pull_request.synchronize
- actions: # a list of the actions that will occur when the step is triggered by an event
- - type: # the type of action, full list at https://lab.github.com/docs/actions
+  description: Implementing an algorithm
+  event: pull_request.synchronize
+  actions: # a list of the actions that will occur when the step is triggered by an event
+  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
