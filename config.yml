@@ -2,10 +2,6 @@ title: How to write a JavaScript function
 tagline: Learn how to write a good JavaScript function
 description: Mini course to learn best practices of creating good JavaScript functions
 
-# Repository setup
-# The following section template information for the repository
-# This will be used when the repository is crated for each individual learner
-
 template:
   name: js-functions
   repo: js-functions-template
