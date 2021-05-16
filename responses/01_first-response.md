@@ -1,6 +1,6 @@
 # JavaScript functions
 
-[![JavaScript Functions](http://img.youtube.com/vi/N8ap4k_1QEQ/0.jpg)](http://www.youtube.com/watch?v=N8ap4k_1QEQ "JavaScript Functions")
+[![JavaScript Functions](https://yt-embed.herokuapp.com/embed?v=N8ap4k_1QEQ)](http://www.youtube.com/watch?v=N8ap4k_1QEQ "JavaScript Functions")
 
 Every JavaScript function is actually a `Function` object. This can be seen with the code `(function(){}).constructor === Function`, which returns `true`.
 
