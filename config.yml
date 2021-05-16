@@ -46,7 +46,7 @@ steps:
   event: push
   actions:
   - type: respond
-      with: 02_nice-work.md
+    with: 02_nice-work.md
 
 # - title: Naming the function properly
 #   description: Good naming is important to write readable code
