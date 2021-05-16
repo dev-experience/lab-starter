@@ -1,5 +1,5 @@
-# Learning Lab Boilerplate
+# How to write a JavaScript function
 
-This repository is a boilerplate for creating [Learning Lab courses](https://lab.github.com/docs/).
+> Mini course to learn best practices of creating good JavaScript functions
 
-To follow along with the course, navigate to pull request #1. 
+The course helps you to learn how to create professional JavaScript functions
