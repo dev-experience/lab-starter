@@ -5,6 +5,7 @@ description: Mini course to learn best practices of creating good JavaScript fun
 template:
   name: js-functions
   repo: js-functions-template
+  description: 'A GitHub Labs robot-powered training repository :robot:'
 
 # `before` block
 # Actions to take place after the learner registers, but before they start interacting with their repo
