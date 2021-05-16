@@ -12,8 +12,29 @@ template:
 before:
 - type: respond
   with: 01_first-response.md
+  store:
+    issue_1_url: '{{ result.data.html_url }}'
+    issue_1_id:  '{{ result.data.id }}'
 
 steps:
+- title: Assign yourself
+  description: Assign the first issue to yourself.
+  event: issues.assigned
+  link: '{{ store.issue_1_url }}'
+  actions:
+  - type: gate
+    every: true
+    gates:
+      - left: '%payload.action%'
+        operator: ===
+        right: assigned
+      - left: '%payload.assignee.login%'
+        operator: ===
+        right: '%user.login%'
+      - left: '%payload.issue.id%'
+        operator: ===
+        right: '{{ store.issue_1_id }}'
+
 - title: Create an empty function
   description: Checking out the basic syntax
   event: push
