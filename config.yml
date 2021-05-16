@@ -25,31 +25,31 @@ before:
 steps:
 - title: Create an empty function
   description: Checking out the basic syntax
-  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  event: push
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 - title: Naming the function properly
  description: Good naming is important to write readable code
- event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+ event: push
  actions: # a list of the actions that will occur when the step is triggered by an event
  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 - title: Retrun a value
  description: Returning a value allow you to implement algorithms
- event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+ event: status
  actions: # a list of the actions that will occur when the step is triggered by an event
  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 - title: Accepting parameters
  description: Functions can use input values to process them
- event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+ event: status
  actions: # a list of the actions that will occur when the step is triggered by an event
  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 - title: 3 functions
  description: Implementing an algorithm
- event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+ event: pull_request.synchronize
  actions: # a list of the actions that will occur when the step is triggered by an event
  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
