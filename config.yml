@@ -23,17 +23,9 @@ steps:
   link: '{{ store.issue_1_url }}'
   actions:
   - type: gate
-    every: true
-    gates:
-      - left: '%payload.action%'
-        operator: ===
-        right: assigned
-      - left: '%payload.assignee.login%'
-        operator: ===
-        right: '%user.login%'
-      - left: '%payload.issue.id%'
-        operator: ===
-        right: '{{ store.issue_1_id }}'
+    left: '%payload.action%'
+    operator: ===
+    right: assigned
 
 - title: Create an empty function
   description: Checking out the basic syntax
